@@ -1,0 +1,22 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id          String   @id @default(uuid())
+  email       String   @unique
+  name        String?
+  optedIn     Boolean  @default(true)
+  signature   String?  // user's personal signature
+}
+
+model GlobalSignature {
+  id        String   @id @default(uuid())
+  content   String
+  updatedAt DateTime @updatedAt
+}

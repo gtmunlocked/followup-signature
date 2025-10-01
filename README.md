@@ -1,10 +1,10 @@
 # FollowUpSignature
 
-A Google Workspace-ready app for marketers to create a shared signature block, which users can automatically append to their personal Gmail signatures.
+A Google Workspace Marketplace app that lets marketers design a shared signature block, which users can automatically append to their personal Gmail signatures.
 
 ## Features
 
-- Marketer creates a global/shared signature block
+- Marketer creates and updates a global/shared signature block
 - Users sign in with Google and update their Gmail signature with the marketer's block appended
 - Easy opt-in/opt-out for users
 - Ready for Google Workspace Marketplace
